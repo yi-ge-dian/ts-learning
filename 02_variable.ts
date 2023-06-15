@@ -73,9 +73,25 @@ function rando(num: number) {
     return num;
 }
 
-// anonymous function
+// anonymous function contextual type
+const colors = ["red", "orange", "yellow"];
+colors.map(color => {
+    return color.toUpperCase();
+})
 
+// void
+function printTwice(msg: string): void {
+    console.log(msg);
+    console.log(msg);
+}
 
-
-
+// never
+function makeError(msg: string): never {
+    throw new Error(msg);
+}
+function gameLoop() {
+    while (true) {
+        console.log("GAME LOOP RUNNING!");
+    }
+}
 

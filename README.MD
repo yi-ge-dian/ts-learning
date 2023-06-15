@@ -13,3 +13,7 @@ npm config set registry https://registry.npm.taobao.org
 ```bash
 npm install -g typescript
 ```
+
+## Learning Material
+
+1. https://www.bilibili.com/video/BV1s14y1P7wz/
