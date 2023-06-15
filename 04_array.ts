@@ -1,29 +1,29 @@
-// array
-const activeUsers: string[] = [];
-activeUsers.push("Tony");
+// // array
+// const activeUsers: string[] = [];
+// activeUsers.push("Tony");
 
-const ageList: number[] = [45, 56, 13];
-ageList[0] = 99
+// const ageList: number[] = [45, 56, 13];
+// ageList[0] = 99
 
-// more array syntax
-const bools: Array<boolean> = []
+// // more array syntax
+// const bools: Array<boolean> = []
 
-type Point = {
-    x: number,
-    y: number
-}
+// // type Point = {
+// //     x: number,
+// //     y: number
+// // }
 
-const coords: Array<Point> = []
-const p1: Point = { x: 1, y: 1 }
-const p2: Point = { x: 1, y: 1 }
-coords.push(p1)
-coords.push(p2)
+// const coords: Array<Point> = []
+// const p1: Point = { x: 1, y: 1 }
+// const p2: Point = { x: 1, y: 1 }
+// coords.push(p1)
+// coords.push(p2)
 
-console.log(coords)
+// console.log(coords)
 
-// multi-dimensional array
-const board: string[][] = [
-    ["X", "0", "X"],
-    ["X", "0", "X"],
-    ["X", "0", "X"],
-];
+// // multi-dimensional array
+// const board: string[][] = [
+//     ["X", "0", "X"],
+//     ["X", "0", "X"],
+//     ["X", "0", "X"],
+// ];

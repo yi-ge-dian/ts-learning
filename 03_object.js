@@ -4,11 +4,13 @@ function printName(person) {
 }
 ;
 printName({ first: "Thomas", last: "Jenkins" });
+
 // more example
 // let coordinate: { x: number; y: number } = { x: 34, y: 2 };
 function randomCoordinate() {
     return { x: Math.random(), y: Math.random() };
 }
+
 // excess properties
 // singer passed as a object, and only check if it has the property of first and last
 var singer = { first: "Mick", last: "Jagger", age: 473, isAlive: true };
