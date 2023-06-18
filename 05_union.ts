@@ -3,10 +3,10 @@ let age: number | string = 23;
 age = "24"
 age = 21;
 
-type Point = {
-    x: number,
-    y: number
-}
+// type Point = {
+//     x: number,
+//     y: number
+// }
 
 type Loc = {
     lat: number,
